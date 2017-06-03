@@ -6,12 +6,12 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<SplitPane fx:id="Pisw" dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1082.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+<SplitPane fx:id="Pisw" dividerPositions="0.30074487895716945" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
   <items>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="588.0" prefWidth="263.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="542.0" prefWidth="291.0">
          <children>
-            <TextField fx:id="Text" layoutX="13.0" layoutY="14.0" onAction="#search" onKeyReleased="#findSugestions" prefHeight="31.0" prefWidth="294.0" />
-            <ListView fx:id="Sugestions" layoutX="13.0" layoutY="45.0" onMouseClicked="#chooseWord" prefHeight="744.0" prefWidth="294.0" />
+            <TextField fx:id="Text" layoutX="13.0" layoutY="14.0" onAction="#search" onKeyReleased="#findSugestions" prefHeight="31.0" prefWidth="218.0" />
+            <ListView fx:id="Sugestions" layoutX="13.0" layoutY="45.0" onMouseClicked="#chooseWord" prefHeight="489.0" prefWidth="218.0" />
          </children></AnchorPane>
       <TabPane fx:id="Dictonaries" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
@@ -19,7 +19,7 @@
             <content>
               <AnchorPane fx:id="BabiniotisTab" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="BambInfo" layoutX="-1.0" prefHeight="758.0" prefWidth="754.0" />
+                        <Label fx:id="BambInfo" layoutY="1.0" prefHeight="502.0" prefWidth="544.0" />
                      </children></AnchorPane>
             </content>
           </Tab>
@@ -27,7 +27,7 @@
             <content>
               <AnchorPane fx:id="GrammataTab" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <Label fx:id="GramInfo" layoutX="-1.0" layoutY="-1.0" prefHeight="761.0" prefWidth="754.0" />
+                        <Label fx:id="GramInfo" layoutY="-1.0" prefHeight="504.0" prefWidth="544.0" />
                      </children></AnchorPane>
             </content>
           </Tab>
